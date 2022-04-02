@@ -36,10 +36,11 @@
 
 .nav-list-items li:hover::after {
   width: 18px;
-  right: -7.8px;
-  top: -3px;
+  right: -8.5px;
+  top: -3.2px;
   transform: skewX(35deg) translate(0);
 }
+
 .nav-list-items li::before {
   position: absolute;
   content: "";
@@ -59,8 +60,8 @@
 
 .nav-list-items li:hover::before {
   width: 18px;
-  left: -8px;
-  bottom: -2px;
+  left: -8.5px;
+  bottom: -2.95px;
   transform: skewX(35deg) translate(0);
 }
 
@@ -96,6 +97,7 @@
   transition: all 0.4s ease;
   border-radius: 0;
 }
+
 .navbar-overlay li {
   font-size: 20px;
   color: var(--color-white);
@@ -114,12 +116,13 @@
   border: 1px solid white;
   transform: skewX(-35deg) !important;
 }
+
 .navbar-overlay li::after {
   position: absolute;
   content: "" !important;
   display: block !important;
   width: 0 !important;
-  height: 14px !important;
+  height: 18px !important;
   background: url("./assets/img/nav-link-uppper-arrow.png") !important;
   background-repeat: no-repeat !important;
   background-size: contain !important;
@@ -131,21 +134,25 @@
   transform: skewX(35deg) translate(50%, -50%) !important;
 }
 
+
+
 .navbar-overlay li:hover::after {
-  width: 18px !important;
-  right: -7.8px !important;
-  top: -3px !important;
+  width: 25px !important;
+  right: -12.9px !important;
+  top: -3.3px !important;
   transform: skewX(35deg) translate(0) !important;
 }
+
 .cursor-pointer {
   cursor: pointer;
 }
+
 .navbar-overlay li::before {
   position: absolute;
   content: "";
   display: block;
   width: 0px;
-  height: 14px;
+  height: 18px;
   background: url("./assets/img/navlink-bottom-arrow.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -158,9 +165,9 @@
 }
 
 .navbar-overlay li:hover::before {
-  width: 18px;
-  left: -8px;
-  bottom: -2px;
+  width: 25px;
+  left: -9.5px;
+  bottom: -3.5px;
   transform: skewX(35deg) translate(0);
 }
 
@@ -384,19 +391,23 @@
 .navbar-link:hover {
   color: white;
 }
+
 @media (max-width: 575.98px) {
   .nav-logo-small {
     max-width: 80px;
     width: 100%;
   }
 }
+
 .social-icon {
   transition: all 0.3s ease-in-out;
 }
+
 .social-icon:hover {
   transform: translateY(-5px);
   stroke: #1eadb6;
 }
+
 .social-icon:hover path {
   stroke: #1eadb6;
 }
