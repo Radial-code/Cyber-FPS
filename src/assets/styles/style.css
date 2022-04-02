@@ -1,0 +1,101 @@
+:root {
+  /*================================== FONT-SIZES ================================================ */
+  --font-xs: 16px;
+  --font-sm: 18px;
+  --font-xsm: 24px;
+  --font-xmd: 36px;
+  --font-md: 40px;
+  --font-lg: 50px;
+  --font-xlg: 64px;
+  --font-xl: 67px;
+  --font-xxl: 100px;
+  /*================================== COLOR-CLASS ================================================ */
+  --color-sky-blue: #4dfff5;
+  --color-sky-light: #11d7cc;
+  --color-pink: #fb2485;
+  --color-light-pink: #ee0aeb;
+  --color-white: #fafafa;
+  --color-black: #000000;
+  --color-yellow-light: #eafb24;
+  --color-black-pearl: #00132c;
+  --color-christalle-blue: #300275;
+}
+
+/*====================================== Media-queries-start ======================================== */
+
+/*====================================== FONT-SIZE CLASS START ======================================= */
+.font-xs {
+  font-size: var(--font-xs) !important;
+}
+
+.font-sm {
+  font-size: var(--font-sm) !important;
+}
+
+.font-xsm {
+  font-size: var(--font-xsm) !important;
+}
+
+.font-xmd {
+  font-size: var(--font-xmd) !important;
+}
+
+.font-md {
+  font-size: var(--font-md) !important;
+}
+
+.font-lg {
+  font-size: var(--font-lg) !important;
+}
+
+.font-xlg {
+  font-size: var(--font-xlg) !important;
+}
+
+.font-xl {
+  font-size: var(--font-xl) !important;
+}
+
+.font-xxl {
+  font-size: var(--font-xxl) !important;
+}
+
+/*====================================== FONT-WEIGHT SIZE CLASS START ============================== */
+.fw-normal {
+  font-weight: 400 !important;
+}
+
+.fw-medium {
+  font-weight: 500 !important;
+}
+
+.fw-semibold {
+  font-weight: 600 !important;
+}
+
+.fw-bold {
+  font-weight: 700 !important;
+}
+
+/*====================================== COLOR CLASS START =================================================== */
+.text-pink {
+  color: var(--color-pink) !important;
+}
+
+.text-white {
+  color: var(--color-white) !important;
+}
+
+.text-black {
+  color: var(--color-black) !important;
+}
+
+/*===================================== BACKGROUND-COLOR CLASS START =========================================== */
+
+.bg-color-white {
+  background-color: var(--color-white) !important;
+}
+
+.bg-color-black {
+  background-color: var(--color-black) !important;
+}
