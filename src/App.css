@@ -36,9 +36,9 @@
 
 .nav-list-items li:hover::after {
   width: 18px;
-  right: -8.5px;
+  right: -7.8px;
   top: -3px;
-  transform: skewX(35deg) translate(0);
+  transform: skewX(32deg) translate(0);
 }
 
 .nav-list-items li::before {
@@ -138,9 +138,9 @@
 
 .navbar-overlay li:hover::after {
   width: 25px !important;
-  right: -12.9px !important;
+  right: -12px !important;
   top: -3.3px !important;
-  transform: skewX(35deg) translate(0) !important;
+  transform: skewX(32deg) translate(0) !important;
 }
 
 .cursor-pointer {
@@ -168,7 +168,7 @@
   width: 25px;
   left: -9.5px;
   bottom: -3.5px;
-  transform: skewX(35deg) translate(0);
+  transform: skewX(32deg) translate(0);
 }
 
 .navbar-overlay li a {
