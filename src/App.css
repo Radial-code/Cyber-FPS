@@ -37,7 +37,7 @@
 .nav-list-items li:hover::after {
   width: 18px;
   right: -8.5px;
-  top: -3.2px;
+  top: -3px;
   transform: skewX(35deg) translate(0);
 }
 
@@ -61,7 +61,7 @@
 .nav-list-items li:hover::before {
   width: 18px;
   left: -8.5px;
-  bottom: -2.95px;
+  bottom: -2px;
   transform: skewX(35deg) translate(0);
 }
 
