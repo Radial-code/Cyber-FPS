@@ -97,7 +97,7 @@
   border-radius: 0;
 }
 .navbar-overlay li {
-  font-size: 30px;
+  font-size: 20px;
   color: var(--color-white);
   font-weight: 400;
   position: relative;
