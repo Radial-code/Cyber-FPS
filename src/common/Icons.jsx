@@ -62,3 +62,21 @@ export const DiscordIcon = () => {
     </>
   );
 };
+export const BackToTopIcon = () => {
+  return (
+    <>
+      <svg
+        width="25"
+        height="25"
+        viewBox="0 0 18 18"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.0038 15.832L7.0302 15.8859L6.9008 6.87122L3.44844 10.4186L0.990375 8.02632L8.80178 -1.77252e-06L16.8281 7.81141L14.4428 10.2623L10.8955 6.80994L11.0038 15.832Z"
+          fill="white"
+        />
+      </svg>
+    </>
+  );
+};

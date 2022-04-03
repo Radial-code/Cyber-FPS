@@ -5,7 +5,7 @@ import { DiscordIcon, InstaIcon, TwitterIcon } from "../common/Icons";
 const Footer = () => {
   return (
     <>
-      <footer class="footer">
+      <footer class="footer pt-sm-3">
         <section class="footer-section">
           <div class="container mt-1">
             <div class="row">
