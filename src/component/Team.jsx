@@ -31,7 +31,7 @@ const Team = () => {
               </div>
             </div>
             <div
-              className="col-8 col-sm-6 col-lg-3 pe-lg-3 mt-5 mt-sm-0 "
+              className="col-8 col-sm-6 col-lg-3 pe-lg-3 mt-4 mt-sm-0 "
               data-aos="fade-up"
               data-aos-duration="2000"
               data-aos-delay="200"
@@ -47,7 +47,7 @@ const Team = () => {
               </div>
             </div>
             <div
-              className="col-8 col-sm-6 col-lg-3 pe-lg-3 mt-5 mt-lg-0 "
+              className="col-8 col-sm-6 col-lg-3 pe-lg-3 mt-4 mt-lg-0 "
               data-aos="fade-up"
               data-aos-duration="2000"
               data-aos-delay="400"
@@ -61,7 +61,7 @@ const Team = () => {
               </div>
             </div>
             <div
-              className="col-8 col-sm-6 col-lg-3 mt-4 mt-5 mt-lg-0 m-auto "
+              className="col-8 col-sm-6 col-lg-3 mt-4 mt-4  mt-lg-0 m-auto "
               data-aos="fade-up"
               data-aos-duration="2000"
               data-aos-delay="600"

@@ -1,5 +1,5 @@
 import React from "react";
-import imgFirst from "../assets/img/what-is-cfps-main.png";
+import imgFirst from "../assets/img/what-is-cyber.png";
 
 const WhatIsCyber = () => {
   return (
