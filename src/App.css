@@ -388,6 +388,10 @@
     max-width: 80px;
     width: 100%;
   }
+  .hero-logo {
+    max-width: 150px;
+    width: 100%;
+  }
 }
 
 .social-icon {

@@ -20,6 +20,7 @@ body {
     --fs-sm: 14px !important;
     --fs-xl: 48px !important;
     --fs-md: 20px;
+    --fs-lg: 26px;
   }
 }
 
@@ -28,12 +29,14 @@ body {
     --fs-sm: 16px !important;
     --fs-xl: 36px !important;
     --fs-md: 18px;
+    --fs-lg: 28px;
   }
 }
 
 @media (max-width: 767.98px) {
   :root {
     --fs-xl: 28px !important;
+    --fs-lg: 27px;
   }
 }
 
@@ -41,6 +44,7 @@ body {
   :root {
     --fs-sm: 14px !important;
     --fs-xl: 24px !important;
+    --fs-lg: 25px;
   }
 }
 
