@@ -6,18 +6,19 @@ const GamePlay = () => {
   return (
     <>
       <section
-        class="gameplay-section mb-sm-3 mb-xl-5 pb-xl-2 overflow-hidden"
+        className="gameplay-section mb-sm-3 mb-xl-5 pb-xl-2 overflow-hidden"
         id="about"
       >
-        <div class="container">
-          <div class="row justify-content-center modified-container mx-auto">
-            <div class="col-12 col-lg-11 text-center">
+        <div className="container">
+          <div className="row justify-content-center modified-container mx-auto">
+            <div className="col-12 col-lg-11 text-center">
               <h2
-                class="fs-xl ff-audiowide fw-400 my-lg-5 mt-3  pt-5 pb-4 position-relative"
+                className="fs-xl ff-audiowide fw-400 my-lg-5 mt-3  pt-5 pb-4 position-relative"
                 data-aos="zoom-in"
                 data-aos-duration="2000"
               >
-                CyberFPS <span class="skyblue position-relative">Gameplay</span>
+                CyberFPS{" "}
+                <span className="skyblue position-relative">Gameplay</span>
               </h2>
 
               <div className="video-container text-center">

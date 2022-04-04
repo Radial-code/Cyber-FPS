@@ -36,14 +36,16 @@ const Faq = () => {
                 data-aos-duration="2000"
               >
                 {faqData.map((item, index) => (
-                  <div className={`${index === view ? " custom-shadow" : ""}`}>
+                  <div
+                    key={index}
+                    className={`${index === view ? " custom-shadow" : ""}`}
+                  >
                     <div
                       className={`light-green-bg mb-1  mt-4 ${
                         index === view ? " active-faq-item-main " : ""
                       }`}
                     >
                       <div
-                        key={index}
                         className={`faq-wrapper  py-lg-4 py-3 px-3 px-sm-4 px-lg-5 overflow-hidden cursor_pointer ${
                           index === view ? " active-faq-item " : ""
                         }`}

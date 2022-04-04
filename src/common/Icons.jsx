@@ -12,9 +12,9 @@ export const TwitterIcon = () => {
         <path
           d="M27.1366 1.06573C26.0232 1.83605 24.7904 2.42522 23.4857 2.81056C22.7855 2.02083 21.8549 1.4611 20.8198 1.20705C19.7846 0.95301 18.6949 1.01691 17.698 1.39012C16.7011 1.76333 15.8451 2.42784 15.2458 3.29377C14.6465 4.1597 14.3328 5.18527 14.3471 6.23179V7.3722C12.3038 7.42416 10.2792 6.97968 8.45348 6.07834C6.62776 5.177 5.05765 3.84677 3.88298 2.20614C3.88298 2.20614 -0.767741 12.4698 9.69637 17.0315C7.30187 18.6257 4.44938 19.4251 1.55762 19.3123C12.0217 25.0143 24.8112 19.3123 24.8112 6.19757C24.8101 5.87992 24.779 5.56304 24.7182 5.25103C25.9048 4.1032 26.7422 2.65399 27.1366 1.06573V1.06573Z"
           stroke="white"
-          stroke-width="1.27895"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.27895"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
     </>
@@ -90,7 +90,7 @@ export const UpArrowIcon = () => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <path d="M1 15L14 2L27 15" stroke="#1EADB6" stroke-width="2" />
+        <path d="M1 15L14 2L27 15" stroke="#1EADB6" strokeWidth="2" />
       </svg>
     </>
   );
@@ -105,7 +105,7 @@ export const DownArrowIcon = () => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <path d="M1 1L14 14L27 1" stroke="#1EADB6" stroke-width="2" />
+        <path d="M1 1L14 14L27 1" stroke="#1EADB6" strokeWidth="2" />
       </svg>
     </>
   );
