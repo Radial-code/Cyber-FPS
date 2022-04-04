@@ -22,7 +22,7 @@ const Header = () => {
     <>
       <div className="navbar-wrapper w-100 position-relative">
         <Desktop>
-          <div className="container d-flex justify-content-between align-items-center">
+          <div className="container modified-container d-flex justify-content-between align-items-center">
             <div className="nav-logo w-100 cursor_pointer ">
               <img className="cursor-pointer" src={logo} alt="logo" />
             </div>

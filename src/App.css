@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+.ff-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
 .connect-wallet-btn:hover {
   -webkit-transform: translateY(-5px);
   -ms-transform: translateY(-5px);
@@ -470,5 +474,90 @@
 
   100% {
     transform: translateY(0);
+  }
+}
+.bg-black {
+  background-color: #000000;
+}
+.light-green-bg {
+  clip-path: polygon(2% 0, 100% 0, 100% 85%, 98% 100%, 0 100%, 0 16%);
+  background-color: #1eadb6;
+  padding: 1px;
+  position: relative;
+  cursor: pointer;
+}
+.light-green-bg::after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: "";
+  background: #1eadb6;
+  width: 29px;
+  height: 4px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 0px 0px 10px 0;
+}
+.light-green-bg::before {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  content: "";
+  background: #1eadb6;
+  width: 29px;
+  height: 4px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+  border-radius: 10px 0px 0px 0;
+}
+.faq-wrapper {
+  clip-path: polygon(2.6% 0, 100% 0, 100% 80%, 97.5% 100%, 0 100%, 0 20%);
+  background-color: black;
+  position: relative;
+}
+.faq-wrapper::after {
+  position: absolute;
+  bottom: 5%;
+  right: 0px;
+  content: "";
+  background: #1eadb6;
+  width: 4px;
+  height: 28px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px 0px 0px 0;
+}
+.faq-wrapper::before {
+  position: absolute;
+  top: 5%;
+  left: 0px;
+  content: "";
+  background: #1eadb6;
+  width: 3px;
+  height: 28px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 0px 0px 10px 0;
+  z-index: 1;
+}
+.active-faq-item {
+  clip-path: polygon(2.6% 0, 100% 0, 100% 87%, 97.5% 100%, 0 100%, 0 12.2%);
+  box-shadow: 0px 0px 10px 1px #1eadb6 inset;
+}
+.active-faq-item-main {
+  clip-path: polygon(2% 0, 100% 0, 100% 90%, 98% 100%, 0 100%, 0 10%);
+  position: relative;
+}
+
+.custom-shadow {
+  filter: drop-shadow(0px 0px 7px #1eadb6);
+}
+.fw-semibold {
+  font-weight: 600;
+}
+@media (max-width: 991.98px) {
+  .faq-wrapper svg {
+    width: 18px;
   }
 }

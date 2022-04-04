@@ -80,3 +80,33 @@ export const BackToTopIcon = () => {
     </>
   );
 };
+export const UpArrowIcon = () => {
+  return (
+    <>
+      <svg
+        width="28"
+        height="16"
+        viewBox="0 0 28 16"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M1 15L14 2L27 15" stroke="#1EADB6" stroke-width="2" />
+      </svg>
+    </>
+  );
+};
+export const DownArrowIcon = () => {
+  return (
+    <>
+      <svg
+        width="28"
+        height="16"
+        viewBox="0 0 28 16"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M1 1L14 14L27 1" stroke="#1EADB6" stroke-width="2" />
+      </svg>
+    </>
+  );
+};

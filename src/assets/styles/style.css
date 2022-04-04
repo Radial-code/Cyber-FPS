@@ -17,6 +17,7 @@
   :root {
     --fs-sm: 14px !important;
     --fs-xl: 48px !important;
+    --fs-md: 20px;
   }
 }
 
@@ -24,6 +25,7 @@
   :root {
     --fs-sm: 16px !important;
     --fs-xl: 36px !important;
+    --fs-md: 18px;
   }
 }
 

@@ -5,6 +5,7 @@ import Team from "./Team";
 import Solana from "./Solana";
 import Footer from "./Footer";
 import BackToTop from "../common/BackToTop";
+import Faq from "./Faq";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <CryptoStraps />
       <Team />
       <Solana />
+      <Faq />
       <Footer />
       <BackToTop />
     </>
