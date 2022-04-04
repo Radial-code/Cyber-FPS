@@ -23,6 +23,7 @@ const Footer = () => {
                     <a
                       className="px-2 mx-sm-1"
                       href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"
+                      rel="noreferrer"
                       target="_blank"
                     >
                       <TwitterIcon />
@@ -30,6 +31,7 @@ const Footer = () => {
                     <a
                       className="px-2 mx-sm-1"
                       href="https://www.instagram.com/"
+                      rel="noreferrer"
                       target="_blank"
                     >
                       <InstaIcon />
@@ -37,6 +39,7 @@ const Footer = () => {
                     <a
                       className="px-2 mx-sm-1"
                       href="https://discord.com/"
+                      rel="noreferrer"
                       target="_blank"
                     >
                       <DiscordIcon />

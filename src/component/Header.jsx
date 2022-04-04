@@ -63,17 +63,28 @@ const Header = () => {
             </div>
 
             <div className="w-100 d-flex justify-content-end  ">
-              <a target="_blank" href="https://twitter.com" className="px-2">
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://twitter.com"
+                className="px-2"
+              >
                 <TwitterIcon />
               </a>
               <a
+                rel="noreferrer"
                 target="_blank"
                 href="https://www.instagram.com"
                 className="px-2"
               >
                 <InstaIcon />
               </a>
-              <a target="_blank" href="https://discord.com" className="px-2">
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://discord.com"
+                className="px-2"
+              >
                 <DiscordIcon />
               </a>
             </div>
@@ -90,6 +101,7 @@ const Header = () => {
             </div>
             <div className=" d-flex justify-content-end  ">
               <a
+                rel="noreferrer"
                 target="_blank"
                 href="https://twitter.com"
                 className="px-sm-2 px-1 header-svg"
@@ -97,6 +109,7 @@ const Header = () => {
                 <TwitterIcon />
               </a>
               <a
+                rel="noreferrer"
                 target="_blank"
                 href="https://www.instagram.com"
                 className="px-sm-2 px-1 header-svg"
@@ -104,6 +117,7 @@ const Header = () => {
                 <InstaIcon />
               </a>
               <a
+                rel="noreferrer"
                 target="_blank"
                 href="https://discord.com"
                 className="px-sm-2 px-1 header-svg"

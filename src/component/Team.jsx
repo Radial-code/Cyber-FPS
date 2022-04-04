@@ -1,8 +1,8 @@
 import React from "react";
+import teamImg4 from "../assets/img/arlen.png";
 import teamImg1 from "../assets/img/collin.png";
 import teamImg2 from "../assets/img/pharaox.png";
 import teamImg3 from "../assets/img/zach.png";
-import teamImg4 from "../assets/img/arlen.png";
 
 const Team = () => {
   return (
