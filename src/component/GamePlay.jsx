@@ -16,6 +16,7 @@ const GamePlay = () => {
                 <video
                   className="clip-path w-100 h-100"
                   controls
+                  autoPlay
                   src={Video}
                 ></video>
               </div>

@@ -3,6 +3,9 @@ import footerLogo from "../assets/img/footer-logo.png";
 import { DiscordIcon, InstaIcon, TwitterIcon } from "../common/Icons";
 
 const Footer = () => {
+  const getCurrentYear = () => {
+    return new Date().getFullYear();
+  };
   return (
     <>
       <footer className="footer pt-sm-3">
@@ -42,7 +45,7 @@ const Footer = () => {
         </section>
         <div className="copyright white mt-1">
           <p className="fs-sm fw-400 text-center mb-0 pt-2 pb-3 opacity-75">
-            © Cyber FPS 2022
+            © Cyber FPS <span>{new Date().getFullYear()}</span>
           </p>
         </div>
       </footer>
