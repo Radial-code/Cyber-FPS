@@ -12,7 +12,11 @@ const Footer = () => {
         <section className="footer-section">
           <div className="container mt-1">
             <div className="row">
-              <div className="col-12 text-center">
+              <div
+                className="col-12 text-center"
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+              >
                 <div className="footer-content mt-4 pt-2">
                   <img className="mb-4" src={footerLogo} alt="footer-logo" />
                   <div className="d-flex justify-content-center mb-5">

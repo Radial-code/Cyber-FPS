@@ -4,13 +4,19 @@ import imgFirst from "../assets/img/what-is-cfps-main.png";
 const WhatIsCyber = () => {
   return (
     <>
-      {" "}
-      <section className="what-is-section black py-5">
+      <section
+        className="what-is-section black py-5 overflow-hidden"
+        id="cyber-fps"
+      >
         <div className="container modified-container my-lg-5 py-lg-5">
           <div className="row justify-content-center justify-content-lg-between">
-            <div className="col-12 col-lg-6 order-2 order-lg-1 mt-4 mt-sm-5 mt-lg-0 text-center text-lg-start">
+            <div
+              className="col-12 col-lg-6 order-2 order-lg-1 mt-4 mt-sm-5 mt-lg-0 text-center text-lg-start "
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
               <h2 className="fs-xl fw-400 mb-4 mb-xl-4 pb-2 pb-xl-3 ff-audiowide position-relative">
-                What is{" "}
+                What is
                 <span className="skyblue d-lg-block pb-1">CyberFPS</span>
               </h2>
               <p className="fs-sm fw-400 opacity-80 ff-montserrat mb-3 mb-lg-1 mb-xl-3 pb-1">
@@ -26,7 +32,11 @@ const WhatIsCyber = () => {
                 game mode.
               </p>
             </div>
-            <div className="col-11 col-sm-8 col-lg-6 ps-xxl-4 order-1 order-lg-2 ">
+            <div
+              className="col-11 col-sm-8 col-lg-6 ps-xxl-4 order-1 order-lg-2 "
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
               <img
                 className="gun-img w-100"
                 src={imgFirst}

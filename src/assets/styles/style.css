@@ -12,7 +12,9 @@
   --black: #000000;
   --white: #ffffff;
 }
-
+body {
+  overflow-x: hidden;
+}
 @media (max-width: 1199.98px) {
   :root {
     --fs-sm: 14px !important;

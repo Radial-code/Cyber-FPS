@@ -4,14 +4,24 @@ import csMain from "../assets/img/cs-main-img.png";
 const CryptoStraps = () => {
   return (
     <>
-      {" "}
-      <section className="cryptstraps-section py-md-5">
+      <section
+        className="cryptstraps-section py-md-5 overflow-hidden"
+        id="cryptostraps"
+      >
         <div className="container modified-container my-lg-5 py-5 py-lg-3">
           <div className="row align-items-center justify-content-center justify-content-lg-between text-center text-lg-start">
-            <div className="col-11 col-sm-8 col-lg-5">
+            <div
+              className="col-sm-11 col-12 col-sm-8 col-lg-5 "
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <img className="cs-img w-100" src={csMain} alt="cs-main-img" />
             </div>
-            <div className="col-12 col-lg-7 px-lg-3 px-xl-5 white mt-5 mt-lg-0">
+            <div
+              className="col-12 col-lg-7 px-lg-3 px-xl-5 white mt-5 mt-lg-0 "
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
               <h2 className="fs-xl fw-400 ms-lg-3 ps-lg-2 mb-4 mb-lg-3 pb-2 pb-lg-1 ff-audiowide position-relative">
                 CryptoStraps
               </h2>

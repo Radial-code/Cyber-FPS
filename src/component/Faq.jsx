@@ -14,7 +14,7 @@ const Faq = () => {
   };
   return (
     <>
-      <div>
+      <div className="overflow-hidden">
         <section
           className="py-4 pb-sm-5 position-relative open_overlay_sections_none bg-black text-white "
           id="faq"
