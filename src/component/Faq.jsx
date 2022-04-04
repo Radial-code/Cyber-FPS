@@ -30,13 +30,12 @@ const Faq = () => {
               </span>
             </h4>
             <div className="row justify-content-center">
-              <div
-                className="col-12 z-index-1111  "
-                data-aos="fade-right"
-                data-aos-duration="2000"
-              >
+              <div className="col-12 z-index-1111  ">
                 {faqData.map((item, index) => (
                   <div
+                    data-aos-delay={`${(index + 1) * 100}`}
+                    data-aos="fade-right"
+                    data-aos-duration="2000"
                     key={index}
                     className={`${index === view ? " custom-shadow" : ""}`}
                   >
