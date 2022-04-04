@@ -246,12 +246,15 @@
 }
 
 .hero-btns :nth-child(even):hover {
-  color: black;
-  background-color: white;
+  color: #1eadb6;
+  box-shadow: inset 0px 0px 10px 2px #1eadb6;
+  background-color: transparent;
+  background-color: transparent;
 }
 
 .hero-btns :nth-child(odd):hover {
   color: #1eadb6;
+  box-shadow: inset 0px 0px 10px 2px #1eadb6;
   background-color: transparent;
 }
 
