@@ -543,6 +543,35 @@
 .fw-semibold {
   font-weight: 600;
 }
+
+.clip-path {
+  clip-path: polygon(11% 0, 100% 0, 100% 89%, 90% 100%, 0 100%, 0 11%);
+}
+.video-container {
+  position: relative;
+}
+.video-container::after {
+  position: absolute;
+  content: "";
+  bottom: -5.5%;
+  left: 4%;
+  background-image: url("./assets//img/game-left-img.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+}
+.video-container::before {
+  position: absolute;
+  content: "";
+  top: 7%;
+  right: 4%;
+  background-image: url("./assets//img/game-right-img.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+}
 @media (max-width: 991.98px) {
   .faq-wrapper svg {
     width: 18px;
@@ -562,5 +591,15 @@
   .light-green-bg::before {
     width: 29px;
     height: 4px;
+  }
+  .video-container::before {
+    top: 7%;
+    right: 3.5%;
+    z-index: 1;
+  }
+}
+@media (max-width: 575.98px) {
+  .video-container::before {
+    top: 1%;
   }
 }
