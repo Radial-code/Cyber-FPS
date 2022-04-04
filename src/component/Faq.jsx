@@ -21,11 +21,13 @@ const Faq = () => {
         >
           <div className="container modified-container py-lg-5 ">
             <h4
-              className="heading text-red text-center mb-md-5 mb-2 mt-4 mt-lg-0"
+              className=" text-center mb-md-5 pb-lg-4 mb-2 mt-4 mt-lg-0"
               data-aos="fade-up"
               data-aos-duration="2000"
             >
-              <span className="fs-xl ff-audiowide pb-sm-3 pb-1"> FAQs</span>
+              <span className="fs-xl ff-audiowide pb-sm-3 pb-1 px-3 underline">
+                FAQ
+              </span>
             </h4>
             <div className="row justify-content-center">
               <div

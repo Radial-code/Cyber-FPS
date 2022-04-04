@@ -28,12 +28,12 @@ const Header = () => {
             </div>
             <div className="nav-list-items w-100">
               <ul className="list-unstyled d-flex align-items-center m-0">
-                <li className="px-3  mx-3">
+                <li className="px-3 py-4 overflow-hidden  mx-3">
                   <a className="text-decoration-none navbar-link" href="#about">
                     About
                   </a>
                 </li>
-                <li className="px-3  mx-3">
+                <li className="px-3 py-4 overflow-hidden  mx-3">
                   <a
                     className="text-decoration-none navbar-link text-nowrap"
                     href="#cryptostraps"
@@ -41,17 +41,17 @@ const Header = () => {
                     CryptoStraps
                   </a>
                 </li>
-                <li className="px-3  mx-3">
+                <li className="px-3 py-4 overflow-hidden mx-3">
                   <a className="text-decoration-none navbar-link" href="#team">
                     Team
                   </a>
                 </li>
-                <li className="px-3  mx-3">
+                <li className="px-3 py-4 overflow-hidden  mx-3">
                   <a className="text-decoration-none navbar-link" href="#faq">
                     Faq
                   </a>
                 </li>
-                <li className="px-3  mx-3">
+                <li className="px-3 py-4 overflow-hidden mx-3">
                   <a
                     className="text-decoration-none navbar-link"
                     href="#light-paper"

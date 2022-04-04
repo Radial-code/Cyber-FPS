@@ -145,7 +145,19 @@
   height: 2px;
   background-color: var(--skyblue);
 }
-
+.underline {
+  position: relative;
+}
+.underline::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -3px;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 2px;
+  background-color: var(--skyblue);
+}
 .card-img {
   overflow: hidden;
   margin: 0 auto;
@@ -206,5 +218,87 @@
 
   .team-section h2::after {
     left: 7px !important;
+  }
+}
+
+.hero-section {
+  background-image: url("../img/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.hero-btns :nth-child(odd) {
+  padding: 11px 35px;
+  background-color: #1eadb6;
+  border-radius: 7px;
+  border: 2px solid #1eadb6;
+}
+
+.hero-btns :nth-child(even) {
+  padding: 10px 36px;
+  border: 2px solid #1eadb6;
+  background-color: transparent;
+  border-radius: 7px;
+}
+
+.hero-btns button {
+  transition: all 0.3s ease-in-out;
+}
+
+.hero-btns :nth-child(even):hover {
+  color: black;
+  background-color: white;
+}
+
+.hero-btns :nth-child(odd):hover {
+  color: #1eadb6;
+  background-color: transparent;
+}
+
+.gameplay-section h2::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 33%;
+  width: 179px;
+  height: 2px;
+  background-color: #1eadb6;
+}
+
+.gameplay-section h2 span::after {
+  content: "";
+  position: absolute;
+  width: 179px;
+  height: 2px;
+  background-color: #1eadb6;
+  left: -21px;
+  top: -10px;
+}
+
+@media (max-width: 991.98px) {
+  .gameplay-section h2::after {
+    bottom: -4px;
+  }
+
+  .hero-section {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .gameplay-section h2 span::after,
+  .gameplay-section h2::after {
+    display: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .hero-logo {
+    width: 224px;
+  }
+
+  .hero-btns :nth-child(even),
+  .hero-btns :nth-child(odd) {
+    padding: 8px 16px;
   }
 }

@@ -72,10 +72,7 @@
 .navbar-wrapper {
   padding-top: 10px;
   padding-bottom: 10px;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
   z-index: 1;
-  background-color: #000000;
 }
 
 .navbar-overlay {
@@ -195,9 +192,9 @@
   animation: animate_links 0.9s;
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
-  -webkit-transform: translateY(10px);
-  -ms-transform: translateY(10px);
-  transform: translateY(10px);
+  -webkit-transform: skewX(-35deg) !important;
+  -ms-transform: skewX(-35deg) !important;
+  transform: skewX(-35deg) !important;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -209,9 +206,9 @@
   animation: animate_links 0.9s;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
-  -webkit-transform: translateY(10px);
-  -ms-transform: translateY(10px);
-  transform: translateY(10px);
+  -webkit-transform: skewX(-35deg) !important;
+  -ms-transform: skewX(-35deg) !important;
+  transform: skewX(-35deg) !important;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -223,13 +220,14 @@
   animation: animate_links 0.9s;
   -webkit-animation-delay: 0.6s;
   animation-delay: 0.6s;
-  -webkit-transform: translateY(10px);
-  -ms-transform: translateY(10px);
-  transform: translateY(10px);
+  -webkit-transform: skewX(-35deg) !important;
+  -ms-transform: skewX(-35deg) !important;
+  transform: skewX(-35deg) !important;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+  transition: all 0.3s ease-in-out;
 }
 
 .active-nav-overlay ul li:nth-child(4) {
@@ -237,13 +235,14 @@
   animation: animate_links 0.9s;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  -webkit-transform: translateY(10px);
-  -ms-transform: translateY(10px);
-  transform: translateY(10px);
+  -webkit-transform: skewX(-35deg) !important;
+  -ms-transform: skewX(-35deg) !important;
+  transform: skewX(-35deg) !important;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+  transition: all 0.3s ease-in-out;
 }
 
 .active-nav-overlay ul li:nth-child(5) {
@@ -251,53 +250,41 @@
   animation: animate_links 0.9s;
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
-  -webkit-transform: translateY(10px);
-  -ms-transform: translateY(10px);
-  transform: translateY(10px);
+  -webkit-transform: skewX(-35deg) !important;
+  -ms-transform: skewX(-35deg) !important;
+  transform: skewX(-35deg) !important;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+  transition: all 0.3s ease-in-out;
 }
 
 .active-nav-overlay ul li:nth-child(6) {
-  -webkit-animation: animate_links 0.9s;
-  animation: animate_links 0.9s;
-  -webkit-animation-delay: 1.2s;
-  animation-delay: 1.2s;
-  -webkit-transform: translateY(10px);
-  -ms-transform: translateY(10px);
-  transform: translateY(10px);
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
+  -webkit-animation: animate_links 0.9s !important;
+  animation: animate_links 0.9s !important;
+  -webkit-animation-delay: 1.2s !important;
+  animation-delay: 1.2s !important;
+  -webkit-transform: skewX(-35deg) !important;
+  -ms-transform: skewX(-35deg) !important;
+  transform: skewX(-35deg) !important;
+  -webkit-animation-iteration-count: 1 !important;
+  animation-iteration-count: 1 !important;
+  -webkit-animation-fill-mode: aorwards;
   animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes animate_links {
-  from {
-    -webkit-transform: translateY(20px);
-    transform: translateY(20px);
-    opacity: 0;
-  }
-
-  to {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-    opacity: 1;
-  }
+  transition: all 0.3s ease-in-out;
 }
 
 @keyframes animate_links {
   from {
-    -webkit-transform: translateY(20px);
-    transform: translateY(20px);
+    -webkit-transform: scale(0.2) skewX(-35deg);
+    transform: scale(0.2) skewX(-35deg);
     opacity: 0;
   }
 
   to {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
+    -webkit-transform: scale(1) skewX(-35deg);
+    transform: scale(1) skewX(-35deg);
     opacity: 1;
   }
 }

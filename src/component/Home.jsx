@@ -6,11 +6,14 @@ import Solana from "./Solana";
 import Footer from "./Footer";
 import BackToTop from "../common/BackToTop";
 import Faq from "./Faq";
+import { Hero } from "./Hero";
+import GamePlay from "./GamePlay";
 
 const Home = () => {
   return (
     <>
-      <Header />
+      <Hero />
+      <GamePlay />
       <WhatIsCyber />
       <CryptoStraps />
       <Team />
