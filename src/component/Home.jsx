@@ -14,8 +14,9 @@ const Home = () => {
       <WhatIsCyber />
       <CryptoStraps />
       <Team />
-      <Solana />
       <Faq />
+      <Solana />
+
       <Footer />
       <BackToTop />
     </>

@@ -492,7 +492,7 @@
   left: 0px;
   content: "";
   background: #1eadb6;
-  width: 29px;
+  width: 50px;
   height: 4px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -504,7 +504,7 @@
   right: 0px;
   content: "";
   background: #1eadb6;
-  width: 29px;
+  width: 50px;
   height: 4px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -523,7 +523,7 @@
   content: "";
   background: #1eadb6;
   width: 4px;
-  height: 28px;
+  height: 40px;
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 10px 0px 0px 0;
@@ -534,8 +534,8 @@
   left: 0px;
   content: "";
   background: #1eadb6;
-  width: 3px;
-  height: 28px;
+  width: 4px;
+  height: 40px;
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 0px 0px 10px 0;
@@ -559,5 +559,21 @@
 @media (max-width: 991.98px) {
   .faq-wrapper svg {
     width: 18px;
+  }
+  .faq-wrapper::before {
+    width: 3px;
+    height: 28px;
+  }
+  .faq-wrapper::after {
+    width: 4px;
+    height: 28px;
+  }
+  .light-green-bg::after {
+    width: 29px;
+    height: 4px;
+  }
+  .light-green-bg::before {
+    width: 29px;
+    height: 4px;
   }
 }

@@ -16,10 +16,10 @@ const Faq = () => {
     <>
       <div>
         <section
-          className="py-4 py-sm-5 position-relative open_overlay_sections_none bg-black text-white mb-5 mb-lg-0"
+          className="py-4 pb-sm-5 position-relative open_overlay_sections_none bg-black text-white "
           id="faq"
         >
-          <div className="container modified-container py-sm-5">
+          <div className="container modified-container py-lg-5 ">
             <h4
               className="heading text-red text-center mb-md-5 mb-2 mt-4 mt-lg-0"
               data-aos="fade-up"
