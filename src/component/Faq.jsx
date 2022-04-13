@@ -16,10 +16,10 @@ const Faq = () => {
     <>
       <div className="overflow-hidden">
         <section
-          className="py-4 pb-sm-5 position-relative open_overlay_sections_none bg-black text-white "
+          className="py-4 pb-5 position-relative open_overlay_sections_none bg-black text-white "
           id="faq"
         >
-          <div className="container modified-container py-lg-5 ">
+          <div className="container modified-container py-lg-5 py-3">
             <h4
               className=" text-center mb-md-5 pb-lg-4 mb-2 mt-4 mt-lg-0"
               data-aos="fade-up"
