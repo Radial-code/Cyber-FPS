@@ -216,7 +216,7 @@ body {
 
 @media (min-width: 1200px) {
   .modified-container {
-    max-width: 1200px;
+    max-width: 1140px !important;
   }
 }
 

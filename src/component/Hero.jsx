@@ -6,7 +6,7 @@ import Header from "./Header";
 export const Hero = () => {
   return (
     <>
-      <section className="hero-section mb-md-3  overflow-hidden">
+      <section className="hero-section   overflow-hidden">
         <Header />
         <div className="container modified-container mb-md-1 ">
           <div className="row align-items-center justify-content-center justify-content-lg-between">
