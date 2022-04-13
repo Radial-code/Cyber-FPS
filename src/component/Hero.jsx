@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../assets/img/footer-logo.png";
-import heroImg from "../assets/img/hero-img.png";
+import ezgif from "../assets/img/ezgif.com-gif-maker.gif"
 import Header from "./Header";
 
 export const Hero = () => {
@@ -10,6 +10,9 @@ export const Hero = () => {
         <Header />
         <div className="container modified-container mb-md-1 ">
           <div className="row align-items-center justify-content-center justify-content-lg-between">
+            <div className="col-8 col-lg-6   animate__animated animate__fadeInRight animation__duration-3s animate__delay-2s">
+              {/* <img className="w-100" src={ezgif} alt="ezgif" /> */}
+            </div>
             <div className="col-12 col-md-10  col-lg-6  d-flex flex-column justify-content-end pb-lg-5 mb-5 text-center text-lg-start  animate__animated animate__fadeInLeft animation__duration-3s animate__delay-2s">
               <div className="mt-4 mt-lg-0">
                 <img className="hero-logo" src={Logo} alt="cyber-hero-logo" />
@@ -21,9 +24,6 @@ export const Hero = () => {
                 <button className="me-1">Get Started</button>
                 <button className="ms-3 white">Learn More</button>
               </div>
-            </div>
-            <div className="col-8 col-lg-6   animate__animated animate__fadeInRight animation__duration-3s animate__delay-2s">
-              <img className="w-100" src={heroImg} alt="hero-main-img" />
             </div>
           </div>
         </div>

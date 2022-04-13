@@ -12,9 +12,11 @@
   --black: #000000;
   --white: #ffffff;
 }
+
 body {
   overflow-x: hidden;
 }
+
 @media (max-width: 1199.98px) {
   :root {
     --fs-sm: 14px !important;
@@ -110,11 +112,17 @@ body {
   background-color: var(--skyblue);
 }
 
-.what-is-section {
+.bg-color {
+  background-image: url("../img/grunge-concret.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+/* .what-is-section {
   background-image: url("../img/what-is-cfps-bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-}
+} */
 
 /* CRYPTSTRAPS SECTION'S CSS  */
 
@@ -147,9 +155,11 @@ body {
   height: 2px;
   background-color: var(--skyblue);
 }
+
 .underline {
   position: relative;
 }
+
 .underline::after {
   content: "";
   position: absolute;
@@ -160,6 +170,7 @@ body {
   height: 2px;
   background-color: var(--skyblue);
 }
+
 .card-img {
   overflow: hidden;
   margin: 0 auto;
@@ -208,6 +219,7 @@ body {
     max-width: 1200px;
   }
 }
+
 @media (min-width: 992px) {
   .gun-img {
     max-width: 533px;
@@ -215,6 +227,7 @@ body {
     object-fit: cover;
   }
 }
+
 @media (max-width: 991.98px) {
   .what-is-section h2::after {
     left: 34%;
@@ -227,6 +240,7 @@ body {
   .team-section h2::after {
     left: 7px !important;
   }
+
   .gun-img {
     min-height: 250px;
     object-fit: cover;
@@ -236,7 +250,8 @@ body {
 .hero-section {
   background-image: url("../img/hero-bg.png");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% auto;
+  min-height: 810px;
 }
 
 .hero-btns :nth-child(odd) {
@@ -301,6 +316,7 @@ body {
 }
 
 @media (max-width: 767.98px) {
+
   .gameplay-section h2 span::after,
   .gameplay-section h2::after {
     display: none;

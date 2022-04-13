@@ -12,8 +12,10 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <GamePlay />
+      <section  className="bg-color">
+          <GamePlay />
       <WhatIsCyber />
+    </section>
       <CryptoStraps />
       <Team />
       <Faq />
