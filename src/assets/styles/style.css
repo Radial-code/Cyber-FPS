@@ -114,7 +114,8 @@ body {
 
 .bg-color {
   background-image: url("../img/grunge-concret.png");
-  background-size: auto 100%;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -127,7 +128,10 @@ body {
 /* CRYPTSTRAPS SECTION'S CSS  */
 
 .cryptstraps-section {
-  background-color: var(--black);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/what_bg.gif");
 }
 
 .cryptstraps-section h2::after {
@@ -143,7 +147,9 @@ body {
 .cs-img {
   max-width: 400px;
 }
-
+.cryptpo_Side_image {
+  right: 0;
+}
 /* TEAM SECTION'S CSS  */
 
 .team-section h2::after {
@@ -250,7 +256,8 @@ body {
 .hero-section {
   background-image: url("../img/hero-bg.png");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
+  background-position: center;
   min-height: 810px;
 }
 
@@ -316,7 +323,6 @@ body {
 }
 
 @media (max-width: 767.98px) {
-
   .gameplay-section h2 span::after,
   .gameplay-section h2::after {
     display: none;

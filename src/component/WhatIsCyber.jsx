@@ -5,7 +5,7 @@ const WhatIsCyber = () => {
   return (
     <>
       <section
-        className="what-is-section black py-5 overflow-hidden"
+        className="what-is-section black  overflow-hidden"
         id="cyber-fps"
       >
         <div className="container modified-container my-lg-5 py-lg-5">
