@@ -31,7 +31,7 @@ const CryptoStraps = () => {
               </h2>
               <p
                 data-aos="fade-up"
-                data-aos-duration="2500"
+                data-aos-duration="2000"
                 data-aos-delay="600"
                 className="fs-sm fw-400  mb-0 ms-lg-3 ps-lg-2 pe-xl-3 ff-montserrat"
               >

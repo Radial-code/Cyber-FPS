@@ -31,7 +31,7 @@ const WhatIsCyber = () => {
               </p>
               <p
                 data-aos="fade-up"
-                data-aos-duration="2500"
+                data-aos-duration="2000"
                 data-aos-delay="600"
                 className="fs-sm fw-400 opacity-80 ff-montserrat mb-0 mb-lg-4 me-xl-3"
               >

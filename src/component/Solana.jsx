@@ -6,26 +6,23 @@ import solanaSideImg from "../assets/img/solana-side-img.png";
 const Solana = () => {
   return (
     <>
-      <section
-        className="solana-section py-5 position-relative"
-        id="light-paper"
-      >
-        <img
-          className="solana-side-img"
-          src={solanaSideImg}
-          alt="solanaSideImg"
-        />
-        <div className="container my-lg-5 py-sm-5">
-          <div className="row justify-content-center my-md-4 py-4">
-            <div className="col-12 text-center">
+      <section className="solana-section  position-relative" id="light-paper">
+        <div className="container-fluid ">
+          <div className="row justify-content-start  py-5">
+            <div className="col-sm-3 col-6 order-3 order-sm-1">
+              <img className="w-100" src={solanaSideImg} alt="solanaSideImg" />
+            </div>
+            <div className="col-sm-4 order-1 order-sm-2 col-6 align-items-end d-flex flex-column justify-content-center">
               <img
                 data-aos="fade-up"
                 data-aos-duration="2000"
                 data-aos-delay="100"
-                className="solana-img me-md-3 me-lg-5 mb-5 mb-md-0 w-100"
+                className="solana-img  w-100"
                 src={solanaImg}
                 alt="solana"
               />
+            </div>
+            <div className="col-sm-3 col-6 order-2 order-sm-3 d-flex flex-column justify-content-center">
               <img
                 data-aos="fade-up"
                 data-aos-delay="300"

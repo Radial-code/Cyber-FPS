@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <footer className="footer pt-sm-3">
         <section className="footer-section">
-          <div className="container mt-1">
+          <div className="container">
             <div className="row">
               <div
                 className="col-12 text-center"

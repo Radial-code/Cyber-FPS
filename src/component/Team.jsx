@@ -19,7 +19,7 @@ const Team = () => {
                 key={index}
                 className="col-8 col-sm-6 col-lg-3 pe-lg-3 mt-3 mt-sm-0 "
                 data-aos="fade-up"
-                data-aos-duration="2000"
+                data-aos-duration="2000""
                 data-aos-delay={`${(index + 1) * 200}`}
               >
                 <div className="team-card">

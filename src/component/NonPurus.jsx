@@ -20,7 +20,7 @@ const NonPurus = () => {
               </h2>
               <p
                 data-aos="fade-up"
-                data-aos-duration="2500"
+                data-aos-duration="2000"
                 data-aos-delay="500"
                 className="fs-sm fw-400 opacity-80 ff-montserrat mb-3 mb-lg-1 mb-xl-3 pb-1"
               >

@@ -31,7 +31,7 @@ const PurusDictim = () => {
               <p
                 className="fs-sm fw-400 opacity-80 ff-montserrat mb-3 mb-lg-1 mb-xl-3 pb-1"
                 data-aos="fade-up"
-                data-aos-duration="2500"
+                data-aos-duration="2000"
                 data-aos-dalay="500"
               >
                 Euismod gravida hendrerit tincidunt ullamcorper parturient. Ut
