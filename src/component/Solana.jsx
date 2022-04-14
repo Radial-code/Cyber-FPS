@@ -21,12 +21,14 @@ const Solana = () => {
               <img
                 data-aos="fade-up"
                 data-aos-duration="2000"
+                data-aos-delay="100"
                 className="solana-img me-md-3 me-lg-5 mb-5 mb-md-0 w-100"
                 src={solanaImg}
                 alt="solana"
               />
               <img
-                data-aos="fade-down"
+                data-aos="fade-up"
+                data-aos-delay="300"
                 data-aos-duration="2000"
                 className="engine-img w-100"
                 src={unrealImg}
