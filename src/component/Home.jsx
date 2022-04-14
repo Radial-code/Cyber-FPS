@@ -24,7 +24,6 @@ const Home = () => {
       <Team />
       <Faq />
       <Solana />
-
       <Footer />
       <BackToTop />
     </>

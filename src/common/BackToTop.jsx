@@ -30,12 +30,10 @@ const BackToTop = () => {
   return (
     <>
       {/* // IF PAGE SCROLL VALUE GRATER THAN 500 THEN SHOW BACK TO TOP BUTTON */}
-      {scrollPosition > 300 ? (
+      {scrollPosition > 300 && (
         <div className="back-to-top " onClick={() => scrollToTop()}>
           <BackToTopIcon />
         </div>
-      ) : (
-        " "
       )}
     </>
   );
