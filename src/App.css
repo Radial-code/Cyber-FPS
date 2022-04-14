@@ -636,9 +636,6 @@
   .video-container-clip-path {
     height: 485px;
   }
-  /* .video-container::before {
-    top: -0.5%;
-  } */
 }
 @media (max-width: 991.98px) {
   .faq-wrapper svg {

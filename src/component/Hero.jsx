@@ -28,10 +28,6 @@ export const Hero = () => {
               <h3 className="fs-lg fw-400 ff-audiowide white mt-1 mb-0">
                 Web3 Gaming Reimagined
               </h3>
-              {/* <div className="hero-btns d-flex ff-audiowide fs-sm fw-400 justify-content-center justify-content-lg-end mt-md-1 mb-xl-5">
-                <button className="me-1">Get Started</button>
-                <button className="ms-3 white">Learn More</button>
-              </div> */}
             </div>
           </div>
         </div>

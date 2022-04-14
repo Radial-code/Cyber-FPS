@@ -13,7 +13,7 @@ export const PlayIcon = () => {
           cy="32.0861"
           r="28.6066"
           stroke="#1EADB6"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <circle
           opacity="0.2"
@@ -21,12 +21,12 @@ export const PlayIcon = () => {
           cy="32.0861"
           r="29.7213"
           stroke="#1EADB6"
-          stroke-width="4"
+          strokeWidth="4"
         />
         <path
           d="M28.242 23.1292L39.8772 32.086L28.242 41.0428L28.242 23.1292Z"
           stroke="#1EADB6"
-          stroke-width="2"
+          strokeWidth="2"
         />
       </svg>
     </>
