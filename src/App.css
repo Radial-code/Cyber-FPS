@@ -623,6 +623,9 @@
     top: 30%;
     transform: translateY(0);
   }
+  .hero-logo-img {
+    max-width: 300px;
+  }
 }
 @media (max-width: 991.98px) {
   .faq-wrapper svg {
@@ -699,7 +702,7 @@
     top: 15%;
   }
   .min-height-100vh {
-    min-height: 90vh;
+    min-height: 890px;
   }
 }
 .animation__duration-3s {
@@ -709,14 +712,31 @@
 @media (max-width: 575.98px) {
   .hero-gif {
     position: absolute;
-    top: 40%;
+    top: 35%;
   }
   .bg-rain-img {
     background-position: top;
     background-repeat: no-repeat;
   }
+  .hero-logo-img {
+    max-width: 200px;
+    margin-top: 7%;
+  }
+  .min-height-100vh {
+    min-height: 80vh;
+  }
 }
 @media (min-width: 992px) {
+  .hero-gif {
+    position: absolute;
+    top: -0%;
+    left: 3%;
+  }
+  .min-height-100vh {
+    min-height: 90vh;
+  }
+}
+@media (min-width: 1200px) {
   .hero-gif {
     position: absolute;
     top: -15%;
@@ -735,7 +755,7 @@
 @media (min-width: 1441px) {
   .hero-gif {
     position: absolute;
-    top: -15%;
+    top: -30%;
     left: 5%;
   }
   .min-height-100vh {

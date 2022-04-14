@@ -319,9 +319,6 @@ body {
   .hero-section {
     background-size: cover;
   }
-  .hero-logo-img {
-    max-width: 300px;
-  }
 }
 
 @media (max-width: 767.98px) {
