@@ -9,7 +9,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function App() {
-  AOS.init();
+  AOS.init({ once: true });
   const [loading, setLoading] = useState(true);
 
   // FOR FULL SCREEN LOADING
