@@ -575,14 +575,14 @@
 .video-container::after {
   position: absolute;
   content: "";
-  bottom: -4.2%;
-  left: -0.8%;
+  bottom: -5.5%;
+  left: -1%;
   background-image: url("./assets//img/game-left-img.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 200px;
   height: 200px;
-  /* z-index: -1; */
+  z-index: -1;
 }
 .video-container::before {
   position: absolute;
@@ -594,7 +594,11 @@
   background-size: contain;
   width: 200px;
   height: 200px;
-  /* z-index: -1; */
+  z-index: -1;
+}
+.video-container-clip-path {
+  clip-path: polygon(11% 0, 112% 0, 100% 83%, 89% 101%, 0 117%, 0 17%);
+  height: 572px;
 }
 .footer-content svg {
   width: 38px;
@@ -629,6 +633,12 @@
   .hero-logo-img {
     max-width: 300px;
   }
+  .video-container-clip-path {
+    height: 485px;
+  }
+  /* .video-container::before {
+    top: -0.5%;
+  } */
 }
 @media (max-width: 991.98px) {
   .faq-wrapper svg {
@@ -667,6 +677,12 @@
   .hero-gif {
     position: absolute;
     top: 10%;
+  }
+  .video-container-clip-path {
+    height: 377px;
+  }
+  .video-container::after {
+    bottom: -2%;
   }
 }
 .five-line-1 {
@@ -715,6 +731,12 @@
   .min-height-100vh {
     min-height: 890px;
   }
+  .video-container-clip-path {
+    height: 278px;
+  }
+  .video-container::after {
+    bottom: -2.5%;
+  }
 }
 .animation__duration-3s {
   animation-duration: 3s !important;
@@ -752,6 +774,15 @@
     max-width: 200px;
     bottom: 0;
   }
+  .video-container::after {
+    display: none;
+  }
+  .video-container::before {
+    display: none;
+  }
+  .video-container-clip-path {
+    height: 200px;
+  }
 }
 @media (min-width: 992px) {
   .hero-gif {
@@ -776,6 +807,11 @@
 @media (min-width: 1300px) {
   .min-height-100vh {
     min-height: 800px;
+  }
+}
+@media (min-width: 1400px) {
+  .video-container-clip-path {
+    width: 1021px !important;
   }
 }
 

@@ -1,3 +1,37 @@
+export const PlayIcon = () => {
+  return (
+    <>
+      <svg
+        width="64"
+        height="64"
+        viewBox="0 0 64 64"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="32.0011"
+          cy="32.0861"
+          r="28.6066"
+          stroke="#1EADB6"
+          stroke-width="2"
+        />
+        <circle
+          opacity="0.2"
+          cx="32.0006"
+          cy="32.0861"
+          r="29.7213"
+          stroke="#1EADB6"
+          stroke-width="4"
+        />
+        <path
+          d="M28.242 23.1292L39.8772 32.086L28.242 41.0428L28.242 23.1292Z"
+          stroke="#1EADB6"
+          stroke-width="2"
+        />
+      </svg>
+    </>
+  );
+};
 export const TwitterIcon = () => {
   return (
     <>
