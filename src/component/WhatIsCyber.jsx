@@ -21,7 +21,7 @@ const WhatIsCyber = () => {
               </h2>
               <p
                 data-aos="fade-up"
-                data-aos-duration="1500"
+                data-aos-duration="2000"
                 data-aos-delay="400"
                 className="fs-sm fw-400 opacity-80 ff-montserrat mb-3 mb-lg-1 mb-xl-3 pb-1"
               >
@@ -31,7 +31,7 @@ const WhatIsCyber = () => {
               </p>
               <p
                 data-aos="fade-up"
-                data-aos-duration="1500"
+                data-aos-duration="2500"
                 data-aos-delay="600"
                 className="fs-sm fw-400 opacity-80 ff-montserrat mb-0 mb-lg-4 me-xl-3"
               >
@@ -45,7 +45,7 @@ const WhatIsCyber = () => {
             <div
               className="col-11 col-sm-8 col-lg-6 ps-xxl-4 order-1 order-lg-2 "
               data-aos="fade-left"
-              data-aos-duration="1500"
+              data-aos-duration="2000"
             >
               <img
                 className="gun-img w-100"

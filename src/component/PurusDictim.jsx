@@ -21,7 +21,7 @@ const PurusDictim = () => {
               <h2
                 className="fs-xl fw-400 mb-4 mb-xl-4 pb-2 pb-xl-3 ff-audiowide position-relative"
                 data-aos="fade-left"
-                data-aos-duration="1500"
+                data-aos-duration="2000"
               >
                 <span className=" d-lg-inlign-block pb-1 me-4 blue-underline">
                   Purus
@@ -31,8 +31,8 @@ const PurusDictim = () => {
               <p
                 className="fs-sm fw-400 opacity-80 ff-montserrat mb-3 mb-lg-1 mb-xl-3 pb-1"
                 data-aos="fade-up"
-                data-aos-duration="1500"
-                data-aos-dalay="300"
+                data-aos-duration="2500"
+                data-aos-dalay="500"
               >
                 Euismod gravida hendrerit tincidunt ullamcorper parturient. Ut
                 tellus pellentesque varius semper. Quis nisi vulputate sit
