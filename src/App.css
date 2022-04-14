@@ -755,7 +755,7 @@
 @media (min-width: 1441px) {
   .hero-gif {
     position: absolute;
-    top: -30%;
+    top: -20%;
     left: 5%;
   }
   .min-height-100vh {
@@ -765,6 +765,6 @@
     background-position: center;
   }
   .min-height-100vh {
-    min-height: 810px;
+    min-height: calc(100vh - 100px);
   }
 }
