@@ -422,7 +422,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 100;
+  z-index: 1000;
 }
 .animate__delay-1_5s {
   animation-delay: 1.5s;
@@ -459,7 +459,7 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 9999;
+  z-index: 999;
   background: #1eadb6;
   border-radius: 50%;
   width: 45px;
@@ -644,6 +644,9 @@
     height: 185px;
   }
   .solana-side-img {
+    display: none;
+  }
+  .cryptpo_Side_image {
     display: none;
   }
 }

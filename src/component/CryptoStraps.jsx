@@ -15,14 +15,14 @@ const CryptoStraps = () => {
         <div className="container modified-container my-lg-5 ">
           <div className="row align-items-center justify-content-center justify-content-lg-between text-center text-lg-start pb-4">
             <div
-              className="col-sm-11 col-12 col-sm-8 col-lg-5 "
+              className="col-sm-11 col-12 col-sm-8 col-lg-5 order-2 order-lg-1 py-4"
               data-aos="fade-right"
               data-aos-duration="2000"
             >
               <img className="cs-img w-100" src={csMain} alt="cs-main-img" />
             </div>
             <div
-              className="col-12 col-lg-7  white mt-5 mt-lg-0 "
+              className="col-12 col-lg-7 order-1 order-lg-2 white mt-5 mt-lg-0 "
               data-aos="fade-left"
               data-aos-duration="2000"
             >
