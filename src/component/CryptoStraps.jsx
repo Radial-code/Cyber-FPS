@@ -21,15 +21,20 @@ const CryptoStraps = () => {
             >
               <img className="cs-img w-100" src={csMain} alt="cs-main-img" />
             </div>
-            <div
-              className="col-12 col-lg-7 order-1 order-lg-2 white mt-5 mt-lg-0 "
-              data-aos="fade-left"
-              data-aos-duration="2000"
-            >
-              <h2 className="fs-xl fw-400 ms-lg-3 ps-lg-2 mb-4 mb-lg-3 pb-2 pb-lg-1 ff-audiowide position-relative">
+            <div className="col-12 col-lg-7 order-1 order-lg-2 white mt-5 mt-lg-0 ">
+              <h2
+                data-aos="fade-left"
+                data-aos-duration="2000"
+                className="fs-xl fw-400 ms-lg-3 ps-lg-2 mb-4 mb-lg-3 pb-2 pb-lg-1 ff-audiowide position-relative"
+              >
                 CryptoStraps
               </h2>
-              <p className="fs-sm fw-400  mb-0 ms-lg-3 ps-lg-2 pe-xl-3 ff-montserrat">
+              <p
+                data-aos="fade-up"
+                data-aos-duration="2000"
+                data-aos-delay="400"
+                className="fs-sm fw-400  mb-0 ms-lg-3 ps-lg-2 pe-xl-3 ff-montserrat"
+              >
                 CryptoStraps are firearms pushing the boundaries of 3D animated
                 art. CyberFPS will be powered by CryptoStraps $AMMO and is
                 directly integrated with the existing CryptoStraps NFTs. You

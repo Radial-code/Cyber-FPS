@@ -612,6 +612,9 @@
   bottom: 0;
   left: 0;
 }
+.text-light-blue {
+  color: #1eadb6;
+}
 .hero-gif {
   position: absolute;
   top: 25%;
@@ -651,10 +654,12 @@
     height: 185px;
   }
   .solana-side-img {
-    display: none;
+    top: 35%;
+    max-width: 200px;
   }
   .cryptpo_Side_image {
-    display: none;
+    max-width: 300px;
+    bottom: 0;
   }
   .min-height-100vh {
     min-height: 900px;
@@ -681,6 +686,12 @@
   background-repeat: repeat;
   background-size: contain;
   background-position: bottom;
+}
+.heroSideImg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 3%;
 }
 @media (max-width: 768px) {
   .video-container::after {
@@ -725,6 +736,22 @@
   .min-height-100vh {
     min-height: 80vh;
   }
+  .heroSideImg img {
+    max-width: 50px;
+    width: 100%;
+  }
+  .heroSideImg {
+    top: 50%;
+    transform: translateY(0);
+  }
+  .solana-side-img {
+    top: 60%;
+    max-width: 150px;
+  }
+  .cryptpo_Side_image {
+    max-width: 200px;
+    bottom: 0;
+  }
 }
 @media (min-width: 992px) {
   .hero-gif {
@@ -766,5 +793,13 @@
   }
   .min-height-100vh {
     min-height: calc(100vh - 100px);
+  }
+}
+@media (max-width: 399.98px) {
+  .solana-side-img {
+    display: none;
+  }
+  .cryptpo_Side_image {
+    display: none;
   }
 }
