@@ -8,7 +8,7 @@ const Solana = () => {
     <>
       <section className="solana-section  position-relative" id="light-paper">
         <div className="container-fluid ">
-          <div className="row justify-content-start  py-5">
+          <div className="row justify-content-start  py-sm-5 pt-5">
             <div className="col-sm-3 col-6 order-3 order-sm-1">
               <img className="w-100" src={solanaSideImg} alt="solanaSideImg" />
             </div>

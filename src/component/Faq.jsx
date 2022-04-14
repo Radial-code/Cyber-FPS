@@ -23,7 +23,7 @@ const Faq = () => {
             <h4
               className=" text-center mb-md-5 pb-lg-4 mb-2 mt-4 mt-lg-0"
               data-aos="fade-up"
-              data-aos-duration="2000""
+              data-aos-duration="2000"
             >
               <span className="fs-xl ff-audiowide pb-sm-3 pb-1 px-3 underline">
                 FAQ
@@ -33,7 +33,7 @@ const Faq = () => {
               <div
                 className="col-12  "
                 data-aos="fade-right"
-                data-aos-duration="2000""
+                data-aos-duration="2000"
               >
                 {faqData.map((item, index) => (
                   <div
