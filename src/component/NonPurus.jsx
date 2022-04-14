@@ -1,5 +1,5 @@
 import React from "react";
-import imgFirst from "../assets/img/video-img.png";
+import videoSecond from "../assets/video/second.mp4";
 
 const NonPurus = () => {
   return (
@@ -36,7 +36,13 @@ const NonPurus = () => {
               data-aos="fade-left"
               data-aos-duration="2000"
             >
-              <img className=" w-100 " src={imgFirst} alt="img" />
+              <video
+                width="100%"
+                height="100%"
+                muted
+                autoPlay
+                src={videoSecond}
+              ></video>
             </div>
           </div>
         </div>
