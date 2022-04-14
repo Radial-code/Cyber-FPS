@@ -257,8 +257,7 @@ body {
   background-image: url("../img/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  min-height: 810px;
+  background-position: left;
 }
 
 .hero-btns :nth-child(odd) {
@@ -319,6 +318,9 @@ body {
 
   .hero-section {
     background-size: cover;
+  }
+  .hero-logo-img {
+    max-width: 300px;
   }
 }
 

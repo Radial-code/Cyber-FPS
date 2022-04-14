@@ -5,7 +5,7 @@ const PurusDictim = () => {
   return (
     <>
       <section
-        className="bg-black text-white py-5  overflow-hidden"
+        className="bg-black text-white py-5 bg-rain-img overflow-hidden"
         id="cyber-fps"
       >
         <div className="container modified-container my-lg-5 py-lg-5">
