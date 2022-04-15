@@ -575,7 +575,7 @@
 .video-container::after {
   position: absolute;
   content: "";
-  bottom: -5.5%;
+  bottom: -6.5%;
   left: -1%;
   background-image: url("./assets//img/game-left-img.png");
   background-repeat: no-repeat;
@@ -598,7 +598,7 @@
 }
 .video-container-clip-path {
   clip-path: polygon(11% 0, 112% 0, 100% 83%, 89% 101%, 0 117%, 0 17%);
-  height: 522px;
+  height: 511px;
 }
 .footer-content svg {
   width: 38px;
