@@ -808,7 +808,7 @@
 }
 @media (min-width: 1400px) {
   .video-container-clip-path {
-    /* width: 900px !important; */
+    height: 520px;
   }
 }
 
