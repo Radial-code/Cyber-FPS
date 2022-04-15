@@ -14,9 +14,9 @@ const GamePlay = () => {
       >
         <div className="container">
           <div className="row justify-content-center modified-container mx-auto">
-            <div className="col-12 col-lg-11 text-center">
+            <div className="col-12 col-lg-10 text-center">
               <h2
-                className="fs-xl ff-audiowide fw-400 my-lg-5 mt-3  pt-5 pb-4"
+                className="fs-xl ff-audiowide fw-400 pb-4 mt-lg-5 mt-3  pt-5 "
                 data-aos="zoom-in"
                 data-aos-duration="2000"
               >

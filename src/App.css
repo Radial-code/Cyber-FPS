@@ -598,7 +598,7 @@
 }
 .video-container-clip-path {
   clip-path: polygon(11% 0, 112% 0, 100% 83%, 89% 101%, 0 117%, 0 17%);
-  height: 572px;
+  height: 522px;
 }
 .footer-content svg {
   width: 38px;
@@ -634,7 +634,7 @@
     max-width: 300px;
   }
   .video-container-clip-path {
-    height: 485px;
+    height: 428px;
   }
 }
 @media (max-width: 991.98px) {
@@ -808,7 +808,7 @@
 }
 @media (min-width: 1400px) {
   .video-container-clip-path {
-    width: 1021px !important;
+    /* width: 900px !important; */
   }
 }
 
@@ -818,9 +818,7 @@
     top: -20%;
     left: 5%;
   }
-  .min-height-100vh {
-    min-height: calc(100vh - 100px);
-  }
+
   .hero-section {
     background-position: center;
   }
