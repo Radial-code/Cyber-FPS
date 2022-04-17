@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../assets/img/hero-img.png";
-import ezgif from "../assets/img/ezgif.com-gif-maker.gif";
+import ezgif from "../assets/img/hero.gif";
 import Header from "./Header";
 import heroSideImg from "../assets/img/CyberFPS.png";
 
